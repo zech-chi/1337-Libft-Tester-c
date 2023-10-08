@@ -1,7 +1,5 @@
 #include "libft_tester.h"
 
-char    *ft_itoa(int n);
-
 struct Test {
     char *s;
     int n;
