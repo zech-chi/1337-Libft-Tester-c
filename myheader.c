@@ -88,6 +88,13 @@ void print_test_case_char(char c)
     printf("%s", close_color);
 }
 
+void print_test_case_int(int n)
+{
+    printf("%s", orange_color);
+    printf("%d", n);
+    printf("%s", close_color);
+}
+
 void print_string(char *str)
 {
     printf("%s", purple_color);
@@ -101,6 +108,14 @@ void print_int_output(int n, char *color)
     printf("%d", n);
     printf("%s", close_color);
 }
+
+void print_string_output(char *str, char *color)
+{
+    printf("%s", color);
+    printf("\"%s\"", str);
+    printf("%s", close_color);
+}
+
 
 void print_printable_and_nonprintable_test_case(char *str)
 {
