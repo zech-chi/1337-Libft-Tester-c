@@ -57,6 +57,7 @@ char    *ft_strdup(const char *s);
 int ft_tolower(int c);
 //// ft_toupper
 int ft_toupper(int c);
-
+//// ft_strlcpy
+size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 
 #endif
