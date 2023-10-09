@@ -135,3 +135,21 @@ void print_printable_and_nonprintable_test_case(char *str)
     printf("\"");
     printf("%s", close_color);
 }
+
+void print_result(int count_correct_ans, int total_test_cases)
+{
+    if (count_correct_ans == total_test_cases)
+    {
+        printf("%s", green_color);
+        printf("all tests passed successfuly 100%%");
+        printf(" ✅\n\n");
+        printf("%s", close_color);
+    }
+    else 
+    {
+        printf("%s", red_color);
+        printf("%d passed from %d tests", count_correct_ans, total_test_cases);
+        printf(" ❌\n");
+        printf("%s", red_color);
+    }
+}
