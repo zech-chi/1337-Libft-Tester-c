@@ -59,5 +59,15 @@ int ft_tolower(int c);
 int ft_toupper(int c);
 //// ft_strlcpy
 size_t	ft_strlcpy(char *dest, const char *src, size_t size);
+//// ft_strncmp
+int ft_strncmp(const char *s1, const char *s2, size_t n);
+//// ft_isdigit
+int ft_isdigit(int c);
+//// ft_isalnum
+int ft_isalnum(int c);
+//// ft_isalpha
+int ft_isalpha(int c);
+//// ft_isascii
+int ft_isascii(int c);
 
 #endif

@@ -14,10 +14,12 @@ if [ ! -f "${source_file}" ]; then
     RESET='\e[0m'
 
     # Message to display
-    message="Source file '${source_file}' not found."
+    message="Source file '${source_file}' not found :("
+    message1="check the name of the file again."
 
     # Print the message in red
     echo -e "${RED}${message}${RESET}"
+    echo -e "${RED}${message1}${RESET}"
     exit 1
 fi
 
