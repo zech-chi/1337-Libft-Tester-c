@@ -69,5 +69,7 @@ int ft_isalnum(int c);
 int ft_isalpha(int c);
 //// ft_isascii
 int ft_isascii(int c);
+//// ft_putchar_fd
+// void ft_putchar_fd(char c, int fd)
 
 #endif
