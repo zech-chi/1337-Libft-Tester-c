@@ -6,7 +6,7 @@ if [ $# -ne 1 ]; then
 fi
 
 test_file="$1"
-source_file="../Libft/${test_file}.c"
+source_file="../1337_libft/${test_file}.c"
 
 if [ ! -f "${source_file}" ]; then
     # Define ANSI escape codes for color
