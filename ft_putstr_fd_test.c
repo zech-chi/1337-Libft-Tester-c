@@ -1,7 +1,5 @@
 #include "libft_tester.h"
 
-void ft_putstr_fd(char *s, int fd);
-
 int main()
 {
     print_my_header();
