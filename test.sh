@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 1 ]; then
-    echo "Usage: $0 <test_file_name>"
+    echo "enter name of a file you wanna test after $0"
     exit 1
 fi
 
