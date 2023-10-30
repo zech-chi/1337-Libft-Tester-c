@@ -6,12 +6,12 @@ if [ $# -ne 1 ]; then
 fi
 
 test_file="$1"
-source_file="../1337_libft/${test_file}.c"
+source_file="../Libft/${test_file}.c"
 
 if [ ! -f "${source_file}" ]; then
     # Define ANSI escape codes for color
-    RED='\e[31m'
-    RESET='\e[0m'
+    RED='\033[0;31m'
+    RESET='\033[0m'
 
     # Message to display
     message="Source file '${source_file}' not found :("
@@ -23,11 +23,11 @@ if [ ! -f "${source_file}" ]; then
     exit 1
 fi
 
-compile_command="cc -Wall -Wextra -Werror ${test_file}_test.c myheader.c ${source_file}"
+compile_command="cc -Wall -Wextra -Werror ${test_file}_test.c myheader.c ../Libft/*.c"
 
 # color green
-GREEN='\e[32m'
-RESET='\e[0m'
+GREEN='\033[0;32m'
+RESET='\033[0m'
 
 # Message to display
 message="Compiling and running ${test_file}_test.c..."

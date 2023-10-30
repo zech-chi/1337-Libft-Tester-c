@@ -14,7 +14,7 @@ int main()
     for (int i = 0; i <= 127; i++)
     {
         // print test case number
-        //wait(300);
+        ft_wait(30);
         print_test_number(i + 1);
 
         // print test case
@@ -44,14 +44,14 @@ int main()
         else
             print_int_output(your_output, red_color);
         printf("\n");
-        //wait(400);
+        //ft_wait(400);
 
         // print expect output
         print_symbol();
         printf(" expected output : ");
         print_int_output(expected_output, green_color);
         printf("\n");
-        //wait(300);
+        //ft_wait(300);
 
         // status ✅ or ❌
         print_symbol();

@@ -19,7 +19,7 @@ int main()
     for (int i = 0; i <= 4; i++)
     {
         // print test case number
-        wait(500);
+        ft_wait(500);
         print_test_number(i + 1);
 
         // print test case

@@ -17,7 +17,7 @@ void print_last_line(void);
 // the symbol of starting line
 void print_symbol(void);
 // wait a few time before the program going on
-void wait(int ms);
+void ft_wait(int ms);
 // output print
 void print_array_of_strings_output(char **av, char *color);
 void print_int_output(int n, char *color);

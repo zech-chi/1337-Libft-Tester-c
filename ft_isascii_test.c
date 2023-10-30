@@ -11,7 +11,7 @@ int main()
     for (int i = -50; i < 150; i++)
     {
         // print test case number
-        //wait(300);
+        ft_wait(20);
         print_test_number(i + 51);
 
         // print test case

@@ -17,7 +17,7 @@ void print_my_header(void)
     printf("\t\t███████╗███████╗╚█████╔╝██║░░██║░░░░░░╚█████╔╝██║░░██║██║\n");
     printf("\t\t╚══════╝╚══════╝░╚════╝░╚═╝░░╚═╝░░░░░░░╚════╝░╚═╝░░╚═╝╚═╝\n\n");
     printf("%s", close_color);
-    wait(700);
+    ft_wait(700);
 }
 
 void print_test_number(int n)
@@ -53,7 +53,7 @@ void print_symbol(void)
     printf("%s", close_color);
 }
 
-void wait(int ms)
+void ft_wait(int ms)
 {
     usleep(ms * 1000);
 }
