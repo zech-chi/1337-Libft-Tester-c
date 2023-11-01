@@ -75,7 +75,7 @@ int main()
     for (int i = 0; i < 11; i++)
     {
         // print test case number
-        wait(500);
+        ft_wait(400);
         print_test_number(i + 1);
 
         // print test case

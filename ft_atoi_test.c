@@ -15,7 +15,7 @@ int main()
     strcpy(Test_cases[0], "");
 
     // test_case 2
-    strcpy(Test_cases[1], " 1337");
+    strcpy(Test_cases[1], "  1337");
 
     // test_case 3
     strcpy(Test_cases[2]," 0001337");
@@ -58,7 +58,7 @@ int main()
     for (int i = 0; i < 14; i++)
     {
         // print test case number
-        wait(700);
+        ft_wait(700);
         print_test_number(i + 1);
 
         // print test case

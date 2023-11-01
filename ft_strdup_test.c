@@ -22,7 +22,7 @@ int main()
     for (int i = 0; i < 8; i++)
     {
         // print test case number
-        wait(500);
+        ft_wait(300);
         print_test_number(i + 1);
 
         // print test case
